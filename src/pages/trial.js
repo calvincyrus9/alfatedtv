@@ -1,9 +1,9 @@
 // src/pages/trial.js
 import { useState } from 'react';
 import Head from 'next/head';
-import Layout from '@/components/layout/Layout';
-import config from '@/config';
-import styles from '@/styles/Trial.module.css';
+import Layout from '../app/components/Layout/Layout';
+import config from '../app/config';
+import styles from '../app/styles/Trial.module.css';
 
 export default function TrialPage() {
   const [formData, setFormData] = useState({
