@@ -1,7 +1,6 @@
 // src/app/components/home/Pricing.js
 import React from 'react';
 import styles from './Pricing.module.css';
-import { siteConfig } from '../../config';
 import { FaCheckCircle } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 

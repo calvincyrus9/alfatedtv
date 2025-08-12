@@ -5,7 +5,7 @@ import Features from '../app/components/home/Features';
 import Testimonials from '../app/components/home/Testimonials';
 import Pricing from '../app/components/home/Pricing';
 import CTA from '../app/components/home/CTA';
-import { siteConfig } from '../app/config';
+import { siteConfig } from '../app/config/config';
 
 export default function Home() {
   return (
