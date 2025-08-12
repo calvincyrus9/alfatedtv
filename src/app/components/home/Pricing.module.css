@@ -1,0 +1,139 @@
+/* src/app/components/home/Pricing.module.css */
+.pricingSection {
+    padding: 80px 20px;
+    background-color: var(--color-background);
+}
+
+.titleContainer {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-light);
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px var(--color-primary-glow);
+}
+
+.subtitle {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricingGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.pricingCard {
+    background: linear-gradient(145deg, #1a2035, var(--color-dark-blue));
+    padding: 40px 30px;
+    border-radius: 20px;
+    border: 1px solid var(--color-border);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.popular {
+    transform: scale(1.05);
+    border: 2px solid var(--color-primary);
+    box-shadow: 0 0 30px var(--color-primary-glow);
+}
+
+.popularBadge {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-primary);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.planTitle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: var(--color-light);
+    margin-bottom: 20px;
+}
+
+.priceContainer {
+    margin-bottom: 30px;
+}
+
+.price {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.duration {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    font-size: 1rem;
+}
+
+.featuresList {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.featuresList li {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.checkIcon {
+    color: var(--color-primary);
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.ctaButton {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+
+.ctaButton:hover {
+    background: var(--color-light);
+    color: var(--color-dark-blue);
+    transform: scale(1.05);
+}
+
+.popular .ctaButton {
+    background: var(--color-primary);
+}
+
+.popular .ctaButton:hover {
+    background: var(--color-light);
+}
