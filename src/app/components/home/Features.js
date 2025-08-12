@@ -1,7 +1,7 @@
 // src/app/components/home/Features.js
 import React from 'react';
 import styles from './Features.module.css';
-import { siteConfig } from '../../config';
+import { siteConfig } from '../../config/config';
 import { motion } from 'framer-motion';
 import { FaSatelliteDish, FaFilm, FaDesktop, FaMobileAlt, FaClock, FaHeadset } from 'react-icons/fa';
 

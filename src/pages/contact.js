@@ -1,7 +1,7 @@
 // src/pages/contact.js
 import Head from 'next/head';
 import Layout from '../app/components/Layout/Layout';
-import { siteConfig } from '../app/config';
+import { siteConfig } from '../app/config/config';
 import styles from '../app/styles/Contact.module.css';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
