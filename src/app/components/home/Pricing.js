@@ -4,6 +4,7 @@ import styles from './Pricing.module.css';
 import { FaCheckCircle } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+
 const pricingPlans = [
   {
     plan: "Standard",

@@ -7,7 +7,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import styles from './Testimonials.module.css';
-import { siteConfig } from '../../config';
 import { FaQuoteLeft } from 'react-icons/fa';
 
 const testimonialsData = [
