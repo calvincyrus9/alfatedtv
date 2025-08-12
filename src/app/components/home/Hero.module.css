@@ -1,0 +1,133 @@
+/* src/components/home/Hero.module.css */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 6rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroContent {
+  max-width: 700px;
+  z-index: 2;
+  position: relative;
+}
+
+.hero h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(45deg, var(--primary), var(--light), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 20px rgba(0, 243, 255, 0.3);
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  color: #a0b3c5;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.2rem 2.5rem;
+  border-radius: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: none;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.primaryBtn {
+  background: linear-gradient(45deg, var(--primary), var(--accent));
+  color: var(--darker);
+  box-shadow: 0 0 25px rgba(0, 243, 255, 0.5);
+}
+
+.primaryBtn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 35px rgba(0, 243, 255, 0.8);
+}
+
+.secondaryBtn {
+  background: transparent;
+  color: var(--light);
+  border: 2px solid var(--secondary);
+}
+
+.secondaryBtn:hover {
+  background: rgba(255, 0, 234, 0.1);
+  box-shadow: 0 0 25px rgba(255, 0, 234, 0.4);
+}
+
+.heroGraphic {
+  position: absolute;
+  right: -100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(0, 243, 255, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+  animation: pulse 8s infinite ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    text-align: center;
+    padding-top: 8rem;
+  }
+  
+  .heroContent {
+    margin: 0 auto;
+  }
+  
+  .heroButtons {
+    justify-content: center;
+  }
+  
+  .heroGraphic {
+    display: none;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.8rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .heroButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+}
