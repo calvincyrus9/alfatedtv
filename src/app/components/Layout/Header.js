@@ -1,7 +1,7 @@
 // src/components/layout/Header.js
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import config from '@/config';
+import config from '../../config';
 import styles from './Header.module.css';
 
 const Header = () => {

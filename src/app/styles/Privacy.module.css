@@ -1,0 +1,60 @@
+/* src/app/styles/Privacy.module.css */
+.privacyHero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(10, 13, 20, 0.8), rgba(10, 13, 20, 0.8)), url('/images/hero-bg.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.heroTitle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0 0 15px var(--color-primary-glow);
+}
+
+.heroSubtitle {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-light);
+    margin-top: 10px;
+}
+
+.contentSection {
+    padding: 80px 20px;
+}
+
+.contentContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, var(--color-dark-blue), #1a2035);
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid var(--color-border);
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+.contentContainer h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: var(--color-light);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 10px;
+}
+
+.contentContainer h2:first-child {
+    margin-top: 0;
+}
+
+.contentContainer ul {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+.contentContainer li {
+    margin-bottom: 10px;
+}

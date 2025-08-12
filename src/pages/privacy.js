@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import siteConfig from '../config/siteConfig';
+import siteConfig from '../app/config';
 import styles from '../styles/Privacy.module.css';
 
 export default function PrivacyPage() {

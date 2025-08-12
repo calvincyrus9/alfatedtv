@@ -1,0 +1,121 @@
+/* src/app/styles/Contact.module.css */
+.contactHero {
+    padding: 100px 20px;
+    text-align: center;
+    background: linear-gradient(rgba(10, 13, 20, 0.8), rgba(10, 13, 20, 0.8)), url('/images/hero-bg.jpg') no-repeat center center/cover;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.heroTitle {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 0 0 15px var(--color-primary-glow);
+}
+
+.heroSubtitle {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+    color: var(--color-light);
+    margin-top: 10px;
+}
+
+.contactSection {
+    padding: 80px 20px;
+}
+
+.contactGrid {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.contactInfo, .contactForm {
+    background: linear-gradient(145deg, var(--color-dark-blue), #1a2035);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid var(--color-border);
+}
+
+.contactInfo h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: var(--color-light);
+    margin-bottom: 20px;
+}
+
+.infoItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+}
+
+.infoIcon {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    font-family: 'Exo 2', sans-serif;
+    margin-bottom: 8px;
+    color: var(--color-light);
+}
+
+.formInput, .formTextarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #0A0D14;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.formInput:focus, .formTextarea:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+.formTextarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submitButton {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.submitButton:hover {
+    background: var(--color-light);
+    color: var(--color-dark-blue);
+    transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+    .contactGrid {
+        grid-template-columns: 1fr;
+    }
+}
