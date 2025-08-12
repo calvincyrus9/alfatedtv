@@ -1,7 +1,7 @@
 // src/pages/privacy.js
 import Head from 'next/head';
 import Layout from '../app/components/Layout/Layout';
-import { siteConfig } from '../app/config';
+import { siteConfig } from '../app/config/config';
 import styles from '../app/styles/Privacy.module.css';
 
 const Privacy = () => {

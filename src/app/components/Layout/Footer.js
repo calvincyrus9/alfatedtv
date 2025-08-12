@@ -1,7 +1,7 @@
 // src/app/components/Layout/Footer.js
 import React from 'react';
 import styles from './Footer.module.css';
-import { siteConfig } from '../../config';
+import { siteConfig } from '../../config/config';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';

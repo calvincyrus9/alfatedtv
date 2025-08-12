@@ -1,7 +1,7 @@
 // src/pages/trial.js
 import Head from 'next/head';
 import Layout from '../app/components/Layout/Layout';
-import { siteConfig } from '../app/config';
+import { siteConfig } from '../app/config/config';
 import styles from '../app/styles/Contact.module.css'; // Reusing contact page styles for consistency
 
 const Trial = () => {
