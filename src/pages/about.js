@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Layout from '../app/components/Layout/Layout';
-import { siteConfig } from '../app/config';
 import styles from '../app/styles/About.module.css';
 import { FaBullseye, FaUsers, FaInfinity } from 'react-icons/fa';
 
