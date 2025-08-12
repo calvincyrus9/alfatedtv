@@ -1,0 +1,20 @@
+/* src/app/styles/Renew.module.css */
+.renewSection {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    color: var(--color-light);
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    max-width: 500px;
+    margin: 0 auto;
+}

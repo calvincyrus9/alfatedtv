@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import Layout from '@/components/layout/Layout';
-import SubscriptionForm from '@/components/sections/SubscriptionForm';
 import config from '@/config';
 import styles from '@/styles/Trial.module.css';
 

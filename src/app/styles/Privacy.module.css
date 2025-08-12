@@ -13,13 +13,6 @@
     text-shadow: 0 0 15px var(--color-primary-glow);
 }
 
-.heroSubtitle {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 1.5rem;
-    color: var(--color-light);
-    margin-top: 10px;
-}
-
 .contentSection {
     padding: 80px 20px;
 }
@@ -48,13 +41,4 @@
 
 .contentContainer h2:first-child {
     margin-top: 0;
-}
-
-.contentContainer ul {
-    list-style-position: inside;
-    padding-left: 10px;
-}
-
-.contentContainer li {
-    margin-bottom: 10px;
 }
