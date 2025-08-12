@@ -1,3 +1,4 @@
+// src/pages/privacy.js
 import Head from 'next/head';
 import Layout from '../app/components/Layout/Layout';
 import { siteConfig } from '../app/config';
