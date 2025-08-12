@@ -4,7 +4,8 @@ import Layout from '../components/Layout/Layout';
 import Hero from '../components/home/Hero';
 import Features from '../components/home/Features';
 import Testimonials from '../components/home/Testimonials';
-import Pricing from '../components/home/Pricing'; // 1. Import the new component
+import Pricing from '../components/home/Pricing';
+import CTA from '../components/home/CTA'; // 1. Import the new CTA component
 import { siteConfig } from '../config';
 
 export default function Home() {
@@ -17,7 +18,8 @@ export default function Home() {
       <Hero />
       <Features />
       <Testimonials />
-      <Pricing /> {/* 2. Add the component here */}
+      <Pricing />
+      <CTA /> {/* 2. Add the component here */}
     </Layout>
   );
 }

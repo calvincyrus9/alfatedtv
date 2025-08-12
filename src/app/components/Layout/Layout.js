@@ -1,15 +1,18 @@
-// src/components/Layout/Layout.js
-import Header from '../Header/Header';
-import Footer from '../Footer/Footer';
-import styles from './Layout.module.css';
+// src/app/components/Layout/Layout.js
+import Header from './Header';
+import Footer from './Footer'; // 1. Import the new Footer
+import FloatingShapes from '../ui/FloatingShapes';
 
 const Layout = ({ children }) => {
   return (
-    <div className={styles.layout}>
+    <>
       <Header />
-      <main className={styles.main}>{children}</main>
-      <Footer />
-    </div>
+      <main>
+        {children}
+      </main>
+      <FloatingShapes />
+      <Footer /> {/* 2. Use the new Footer component */}
+    </>
   );
 };
 

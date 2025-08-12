@@ -1,0 +1,103 @@
+/* src/app/components/Layout/Footer.module.css */
+.footer {
+    background-color: #0A0D14;
+    padding: 60px 20px;
+    border-top: 1px solid var(--color-border);
+}
+
+.footerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.brandInfo {
+    flex: 1;
+    min-width: 250px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+}
+
+.linksGrid {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.linksGrid h4 {
+    font-family: 'Orbitron', sans-serif;
+    color: var(--color-light);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.linksGrid ul {
+    list-style: none;
+    padding: 0;
+}
+
+.linksGrid li {
+    margin-bottom: 10px;
+}
+
+.linksGrid a {
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.linksGrid a:hover {
+    color: var(--color-primary);
+}
+
+.footerBottom {
+    border-top: 1px solid var(--color-border);
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.socialLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.socialLinks a {
+    color: var(--color-text-secondary);
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.socialLinks a:hover {
+    color: var(--color-primary);
+    transform: translateY(-3px);
+}
