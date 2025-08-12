@@ -1,6 +1,4 @@
-// src/pages/index.js
 import Head from 'next/head';
-// --- FIX: Corrected the import path to point to the components inside the 'app' folder ---
 import Layout from '../app/components/Layout/Layout';
 import Hero from '../app/components/home/Hero';
 import Features from '../app/components/home/Features';

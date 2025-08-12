@@ -34,6 +34,16 @@
     padding-bottom: 50px; /* Space for pagination */
 }
 
+/* --- FIX: Wrapped :global selectors in a local class --- */
+.swiper :global(.swiper-button-next),
+.swiper :global(.swiper-button-prev) {
+    color: var(--color-primary) !important;
+}
+
+.swiper :global(.swiper-pagination-bullet-active) {
+    background-color: var(--color-primary) !important;
+}
+
 .swiperSlide {
     display: flex;
     justify-content: center;
@@ -86,14 +96,4 @@
     font-family: 'Exo 2', sans-serif;
     color: var(--color-primary);
     font-weight: 500;
-}
-
-/* Customizing Swiper Navigation and Pagination */
-:global(.swiper-button-next),
-:global(.swiper-button-prev) {
-    color: var(--color-primary) !important;
-}
-
-:global(.swiper-pagination-bullet-active) {
-    background-color: var(--color-primary) !important;
 }
